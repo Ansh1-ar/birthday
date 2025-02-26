@@ -47,7 +47,7 @@ body {
   }
   /* Wish 2 specific styles */
 #wish2 .image-wish2 {
-    width: 300px; /* Adjust the size */
+    width: 150px; /* Adjust the size */
     position: absolute;
     top: 20%; /* Adjust positioning */
     left: 2%; /* Adjust positioning */
@@ -96,7 +96,7 @@ body {
 
   /* Wish 5 specific styles */
 #wish5 .image-wish5 {
-    width: 250px; /* Adjust the size */
+    width: 150px; /* Adjust the size */
     position: absolute;
     bottom: 20%; /* Adjust positioning */
     right: 10%; /* Adjust positioning */
