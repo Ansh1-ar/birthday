@@ -100,14 +100,14 @@ p {
 
 /* Wish 2 specific image */
 #wish2 .image-wish2 {
-  width: 150px; /* Larger size */
+  width: 190px; /* Larger size */
   top: 15%; /* Adjust positioning */
   left: 5%; /* Adjust positioning */
 }
 
 /* Wish 3 specific image */
 #wish3 .image-wish3 {
-  width: 150px; /* Larger size */
+  width: 190px; /* Larger size */
   top: 15%; /* Adjust positioning */
   right: 5%; /* Adjust positioning */
 }
@@ -185,12 +185,12 @@ p {
 
   /* Adjust positioning for mobile */
   #wish2 .image-wish2 {
-    top: 10%;
+    top: 15%;
     left: 5%;
   }
 
   #wish3 .image-wish3 {
-    top: 10%;
+    top: 15%;
     right: 5%;
   }
 
