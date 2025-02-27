@@ -106,6 +106,14 @@ p {
   left: 10%;
 }
 
+/* Wish 2 specific styles */
+#wish3 .image-wish3 {
+  width: 160px; /* 20% of the viewport width */
+  height: auto;
+  top: 20%;
+  left: 10%;
+}
+
 /* Wish 5 specific styles */
 #wish5 .image-wish5 {
   bottom: 20%;
