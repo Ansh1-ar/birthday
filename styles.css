@@ -92,7 +92,7 @@ p {
 
 .image {
   position: absolute;
-  width: 170px; /* Default size */
+  width: 150px; /* Default size */
   height: auto;
   animation: float 5s infinite ease-in-out;
   will-change: transform; /* Improve animation performance */
