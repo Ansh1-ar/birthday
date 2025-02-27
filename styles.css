@@ -221,3 +221,12 @@ p {
     transform: translateY(-20px);
   }
 }
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  #wish3 .image-wish3 {
+    width: 30vw; /* Responsive size for mobile (30% of viewport width) */
+    height: auto;
+    top: 10%; /* Adjust positioning for mobile */
+    right: 5%; /* Adjust positioning for mobile */
+  }
+}
