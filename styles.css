@@ -156,12 +156,7 @@ p {
     top: 5%;
     left: 5%;
   }
-  #wish3 .image-wish3 {
-    width: 160px; /* 25% of the viewport width */
-    height: auto;
-    top: 5%;
-    right: 5%;
-  }
+  
 
   #wish5 .image-wish5 {
     bottom: 15%;
