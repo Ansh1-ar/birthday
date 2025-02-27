@@ -100,7 +100,7 @@ p {
 
 /* Wish 2 specific styles */
 #wish2 .image-wish2 {
-  width: 20vw; /* 20% of the viewport width */
+  width: 25vw; /* 20% of the viewport width */
   height: auto;
   top: 20%;
   left: 10%;
