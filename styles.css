@@ -143,13 +143,13 @@ p {
 
   /* Adjust positioning for mobile */
   #wish2 .image-wish2 {
-    width: 180px; /* 25% of the viewport width */
+    width: 170px; /* 25% of the viewport width */
     height: auto;
     top: 10%;
     left: 5%;
   }
   #wish3 .image-wish3 {
-  width: 25vw; /* 25% of the viewport width */
+  width: 35vw; /* 25% of the viewport width */
   height: auto;
 }
 
