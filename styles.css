@@ -92,7 +92,7 @@ p {
 
 .image {
   position: absolute;
-  width: 250px; /* Default size */
+  width: 150px; /* Default size */
   height: auto;
   animation: float 5s infinite ease-in-out;
   will-change: transform; /* Improve animation performance */
@@ -148,5 +148,39 @@ p {
   #wish5 .image-wish5 {
     bottom: 15%;
     right: 5%;
+  }
+}
+/* styles.css */
+/* Existing styles... */
+
+/* Floating emojis container */
+.emoji-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Ensure clicks pass through */
+  z-index: 20; /* Place emojis above other content */
+}
+
+/* Floating emojis */
+.floating-emoji {
+  position: absolute;
+  font-size: 1.5rem; /* Smaller emoji size */
+  animation: floatUp 5s linear infinite;
+  bottom: -10%; /* Start below the screen */
+  will-change: transform; /* Improve performance */
+}
+
+/* Emoji floating animation */
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-110vh); /* Move up and out of the screen */
+    opacity: 0;
   }
 }
