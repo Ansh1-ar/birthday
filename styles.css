@@ -149,9 +149,8 @@ p {
     left: 5%;
   }
   #wish3 .image-wish3 {
-  width: 180px; /* 25% of the viewport width */
+  width: 25vw; /* 25% of the viewport width */
   height: auto;
-    top: 25%;
 }
 
   #wish5 .image-wish5 {
