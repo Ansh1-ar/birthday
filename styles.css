@@ -143,9 +143,9 @@ p {
 
   /* Adjust positioning for mobile */
   #wish2 .image-wish2 {
-    width: 25vw; /* 25% of the viewport width */
+    width: 150px; /* 25% of the viewport width */
     height: auto;
-    top: 15%;
+    top: 10%;
     left: 5%;
   }
   #wish3 .image-wish3 {
