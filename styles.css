@@ -125,8 +125,8 @@ p {
 /* Big cake emoji */
 .cake {
   position: fixed;
-  left: 20px; /* Position on the left side */
-  top: 20px; /* Position at the top */
+  right: 50px; /* Position on the left side */
+  top: 50px; /* Position at the top */
   font-size: 8rem; /* Large size */
   z-index: 30; /* Ensure it's above other content */
   animation: bounce 2s infinite ease-in-out; /* Add a bounce animation */
