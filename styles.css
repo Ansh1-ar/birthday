@@ -141,9 +141,15 @@ p {
 
   /* Adjust positioning for mobile */
   #wish2 .image-wish2 {
+    width: 25vw; /* 25% of the viewport width */
+    height: auto;
     top: 15%;
     left: 5%;
   }
+  #wish3 .image-wish3 {
+  width: 25vw; /* 25% of the viewport width */
+  height: auto;
+}
 
   #wish5 .image-wish5 {
     bottom: 15%;
@@ -188,7 +194,7 @@ p {
 .cake {
   position: fixed;
   left: 20px; /* Position on the left side */
-  top: 20px; /* Position at the bottom */
+  top: 50px; /* Position at the bottom */
   font-size: 8rem; /* Large size */
   z-index: 30; /* Ensure it's above other content */
   animation: bounce 2s infinite ease-in-out; /* Add a bounce animation */
