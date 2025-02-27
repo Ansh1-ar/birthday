@@ -74,7 +74,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('firework2.gif') no-repeat center center;
+  background: url('fireworks.gif') no-repeat center center;
   background-size: cover;
   z-index: -1; /* Place it behind the content */
   pointer-events: none; /* Ensure clicks pass through */
@@ -92,24 +92,24 @@ p {
 
 .image {
   position: absolute;
-  width: 20vw; /* 20% of the viewport width */
+  width: 150px; /* Default size */
   height: auto;
   animation: float 5s infinite ease-in-out;
   will-change: transform; /* Improve animation performance */
 }
 
-/* Wish 2 specific styles */
+/* Wish 2 specific image */
 #wish2 .image-wish2 {
-  width: 20vw; /* 20% of the viewport width */
-  height: auto;
-  top: 20%;
-  left: 10%;
+  width: 250px; /* Larger size */
+  top: 15%; /* Adjust positioning */
+  left: 5%; /* Adjust positioning */
 }
 
-/* Wish 5 specific styles */
-#wish5 .image-wish5 {
-  bottom: 20%;
-  right: 10%;
+/* Wish 3 specific image */
+#wish3 .image-wish3 {
+  width: 250px; /* Larger size */
+  top: 15%; /* Adjust positioning */
+  right: 5%; /* Adjust positioning */
 }
 
 /* Floating animation */
@@ -122,44 +122,15 @@ p {
   }
 }
 
-/* Mobile-specific styles */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem; /* Smaller font size for mobile */
-  }
-
-  p {
-    font-size: 1.5rem; /* Smaller font size for mobile */
-  }
-
-  .next-btn {
-    padding: 15px 30px; /* Larger button for easier tapping */
-    font-size: 1.5rem;
-  }
-
-  .image {
-    width: 100px; /* Smaller images for mobile */
-  }
-
-  /* Adjust positioning for mobile */
-  #wish2 .image-wish2 {
-    width: 25vw; /* 25% of the viewport width */
-    height: auto;
-    top: 15%;
-    left: 5%;
-  }
-  #wish3 .image-wish3 {
-  width: 25vw; /* 25% of the viewport width */
-  height: auto;
+/* Big cake emoji */
+.cake {
+  position: fixed;
+  left: 20px; /* Position on the left side */
+  top: 20px; /* Position at the top */
+  font-size: 8rem; /* Large size */
+  z-index: 30; /* Ensure it's above other content */
+  animation: bounce 2s infinite ease-in-out; /* Add a bounce animation */
 }
-
-  #wish5 .image-wish5 {
-    bottom: 15%;
-    right: 5%;
-  }
-}
-/* styles.css */
-/* Existing styles... */
 
 /* Floating emojis container */
 .emoji-container {
@@ -192,22 +163,38 @@ p {
     opacity: 0;
   }
 }
-/* Big cake emoji */
-.cake {
-  position: fixed;
-  left: 20px; /* Position on the left side */
-  top: 50px; /* Position at the bottom */
-  font-size: 8rem; /* Large size */
-  z-index: 30; /* Ensure it's above other content */
-  animation: bounce 2s infinite ease-in-out; /* Add a bounce animation */
-}
 
-/* Bounce animation */
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem; /* Smaller font size for mobile */
   }
-  50% {
-    transform: translateY(-20px);
+
+  p {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .next-btn {
+    padding: 15px 30px; /* Larger button for easier tapping */
+    font-size: 1.5rem;
+  }
+
+  .image {
+    width: 100px; /* Smaller images for mobile */
+  }
+
+  /* Adjust positioning for mobile */
+  #wish2 .image-wish2 {
+    top: 10%;
+    left: 5%;
+  }
+
+  #wish3 .image-wish3 {
+    top: 10%;
+    right: 5%;
+  }
+
+  .cake {
+    font-size: 5rem; /* Smaller cake emoji for mobile */
   }
 }
