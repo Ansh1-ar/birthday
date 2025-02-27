@@ -151,6 +151,7 @@ p {
   #wish3 .image-wish3 {
   width: 25vw; /* 25% of the viewport width */
   height: auto;
+    top: 20%;
 }
 
   #wish5 .image-wish5 {
