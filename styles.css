@@ -184,3 +184,22 @@ p {
     opacity: 0;
   }
 }
+/* Big cake emoji */
+.cake {
+  position: fixed;
+  left: 20px; /* Position on the left side */
+  bottom: 50px; /* Position at the bottom */
+  font-size: 8rem; /* Large size */
+  z-index: 30; /* Ensure it's above other content */
+  animation: bounce 2s infinite ease-in-out; /* Add a bounce animation */
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
