@@ -188,7 +188,7 @@ p {
 .cake {
   position: fixed;
   left: 20px; /* Position on the left side */
-  bottom: 50px; /* Position at the bottom */
+  top: 20px; /* Position at the bottom */
   font-size: 8rem; /* Large size */
   z-index: 30; /* Ensure it's above other content */
   animation: bounce 2s infinite ease-in-out; /* Add a bounce animation */
